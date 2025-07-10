@@ -1,2 +1,2 @@
 # Carrier-Gudiance-app
-Try to make a Carrier Guidance web app that helps student
+Try to make a Carrer Guidance web app that helps student
