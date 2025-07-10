@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Available Colleges</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        // TEMP: Simulated values for testing (replace this after integration with location selection page)
+        localStorage.setItem("location", "India");
+        localStorage.setItem("career", "Engineering");
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🏫 Available Colleges</h1>
+        <div id="collegeList"></div>
+    </div>
+
+    <script src="firebase-config.js" type="module"></script>
+    <script src="colleges.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+/* Import a modern Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    width: 90%;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+h1,
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+button,
+.btn {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 12px 25px;
+    background-color: #009dff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    text-decoration: none;
+}
+button:hover,
+.btn:hover {
+    background-color: #005f99;
+}
+
+a {
+    color: #009dff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    input,
+    button {
+        font-size: 15px;
+    }
+}
+

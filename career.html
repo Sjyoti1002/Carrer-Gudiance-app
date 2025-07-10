@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Choose Career Path</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Choose Your Career Stream</h1>
+    <button onclick="chooseCareer('Engineering')">Engineering</button>
+    <button onclick="chooseCareer('Management')">Management</button>
+
+    <script>
+        function chooseCareer(career) {
+            localStorage.setItem('career', career);
+            window.location.href = "location.html";
+        }
+    </script>
+</body>
+
+</html>
